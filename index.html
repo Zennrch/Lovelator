@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Cinta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" disabled>
+    <div class="buttons">
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>×</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>-</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>+</button>
+      <button>0</button>
+      <button>.</button>
+      <button>=</button>
+      <button>:</button>
+      <button>C</button>
+    </div>
+  </div>
+  <audio id="background-music" autoplay muted loop>
+    <source src="Ily.mp3" type="audio/mpeg"> 
+    Your browser does not support the audio element.
+    </audio>
+  <script src="main.js"></script>
+  <script>
+    window.addEventListener('load', function() {
+        const audio = document.getElementById('background-music');
+        audio.muted = false; // Unmute the audio after the page loads
+    });
+  </script>
+</body>
+</html>
