@@ -27,18 +27,10 @@
       <button>=</button>
       <button>:</button>
       <button>C</button>
+      <button id="yes-btn" class="hidden">Yes</button>
+      <button id="no-btn" class="hidden">No</button>
     </div>
   </div>
-  <audio id="background-music" autoplay muted loop>
-    <source src="Ily.mp3" type="audio/mpeg"> 
-    Your browser does not support the audio element.
-    </audio>
   <script src="main.js"></script>
-  <script>
-    window.addEventListener('load', function() {
-        const audio = document.getElementById('background-music');
-        audio.muted = false; // Unmute the audio after the page loads
-    });
-  </script>
 </body>
 </html>
