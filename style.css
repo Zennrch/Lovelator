@@ -1,4 +1,4 @@
- body {
+body {
   margin: 0;
   padding: 0;
   display: flex;
@@ -53,4 +53,18 @@ button:hover {
 
 button:active {
   background-color: #ff9999;
+}
+
+.hidden {
+  display: none; /* Menyembunyikan tombol Yes dan No secara default */
+}
+
+#yes-btn {
+  background-color: #4CAF50; /* Warna hijau untuk Yes */
+  color: white;
+}
+
+#no-btn {
+  background-color: #f44336; /* Warna merah untuk No */
+  color: white;
 }
